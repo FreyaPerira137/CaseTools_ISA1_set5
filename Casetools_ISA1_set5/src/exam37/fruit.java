@@ -10,8 +10,12 @@ public class fruit {
 		// TODO Auto-generated method stub
 
 		fruit cherry = new fruit ("green");
-		//String color = cherry.color;
-		//System.out.println("Color of cherry is "+color);
+		String color = cherry.getColor();
+		System.out.println("Color of cherry is "+color);
+	}
+	
+	String getColor() {
+		return color;
 	}
 
 }
